@@ -9,7 +9,7 @@ error_exit()
 #   Accepts 1 argument:
 #     string containing descriptive error message
 # ----------------------------------------------------------------
-  echo "${PROGNAME}: ${1:-"Unknown Error"}" 1>&2. #print program name, and also any output passed to error_exit() . If not, output unknown error
+  echo "${PROGNAME}: ${1:-"Unknown Error"}" 1>&2 #print program name, and also any output passed to error_exit() . If not, output unknown error
   exit 1
 }
 
